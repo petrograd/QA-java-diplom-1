@@ -1,11 +1,12 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-
 target/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -44,10 +45,3 @@ build/
 ### Plugin files ###
 /.allure/
 /.idea/
-
-### Target except jacoco-results ###
-!/target/
-/target/**
-!/target/site/jacoco/
-
-
