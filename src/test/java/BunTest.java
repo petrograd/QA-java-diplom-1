@@ -16,12 +16,12 @@ public class BunTest {
     }
 
     @Test
-    public void shouldGetName() {
+    public void getNameShowsOk() {
         assertEquals(BUN_NAME, bun.getName());
     }
 
     @Test
-    public void shouldGetPrice() {
+    public void getPriceShowsOk() {
         assertEquals(BUN_PRICE, bun.getPrice(), 0.0);
     }
 }

@@ -25,7 +25,7 @@ public class IngredientTypeTest {
     }
 
     @Test
-    public void shouldGetIngredientType() {
+    public void getIngredientTypeShowsOk() {
         assertEquals(expected, value);
     }
 
