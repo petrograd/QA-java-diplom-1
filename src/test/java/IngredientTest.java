@@ -10,13 +10,12 @@ public class IngredientTest {
 
     private final String INGREDIENT_NAME = "Test ingredient";
     private final float INGREDIENT_PRICE = 7.40f;
-    private Ingredient ingredient;
-
     @Mock
     IngredientType type;
+    private Ingredient ingredient;
 
     @Before
-    public void createIngredient()  {
+    public void createIngredient() {
         ingredient = new Ingredient(type, INGREDIENT_NAME, INGREDIENT_PRICE);
     }
 

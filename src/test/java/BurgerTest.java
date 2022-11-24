@@ -12,24 +12,22 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.*;
 
-
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
 
-    private Burger burger;
     private final IngredientType INGREDIENT_TYPE = IngredientType.FILLING;
     private final String INGREDIENT_NAME = "Test ingredient";
     private final float PRICE = 1.0f;
     private final String BUN_NAME = "Test bun";
-    private Ingredient ingredient = new Ingredient(INGREDIENT_TYPE, INGREDIENT_NAME, PRICE);
-    private Bun bun = new Bun(BUN_NAME, PRICE);
-
     @Mock
     Burger mockitoBurger;
     @Mock
     Bun mockitoBun;
     @Mock
     Ingredient mockitoIngredient;
+    private Burger burger;
+    private Ingredient ingredient = new Ingredient(INGREDIENT_TYPE, INGREDIENT_NAME, PRICE);
+    private Bun bun = new Bun(BUN_NAME, PRICE);
 
     @Before
     public void createBurger() {

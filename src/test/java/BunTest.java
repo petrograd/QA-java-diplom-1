@@ -4,11 +4,10 @@ import praktikum.Bun;
 
 import static org.junit.Assert.assertEquals;
 
-
 public class BunTest {
-    private Bun bun;
-    private final String BUN_NAME = "zufälliges Brötchen";
+    private final String BUN_NAME = "Турецкий экмек";
     private final float BUN_PRICE = 7.40f;
+    private Bun bun;
 
     @Before
     public void createBun() {

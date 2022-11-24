@@ -3,8 +3,8 @@ import praktikum.IngredientType;
 import org.junit.Test;
 import org.junit.runners.Parameterized;
 import org.junit.runner.RunWith;
-import static org.junit.Assert.*;
 
+import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class IngredientTypeTest {
@@ -18,9 +18,9 @@ public class IngredientTypeTest {
 
     @Parameterized.Parameters(name = "Ingredient type: {0}")
     public static Object[][] getIngredientType() {
-        return new Object[][] {
-                { IngredientType.SAUCE, IngredientType.valueOf("SAUCE")},
-                { IngredientType.FILLING, IngredientType.valueOf("FILLING")},
+        return new Object[][]{
+                {IngredientType.SAUCE, IngredientType.valueOf("SAUCE")},
+                {IngredientType.FILLING, IngredientType.valueOf("FILLING")},
         };
     }
 
